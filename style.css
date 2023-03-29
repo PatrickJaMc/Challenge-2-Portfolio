@@ -26,18 +26,16 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     }
-
+/* use % instead of px*/
 section{
     background-color: gray;
-    width: 400px;
+    width: 40%;
+    min-width: 400px;
     border: 5px solid blue;
     padding: 5px;
     margin: 50px;
 }
 
-#section{
-
-}
 
 h3, p{
     display: flex;
@@ -45,14 +43,17 @@ h3, p{
 }
 
 #calculator{
-    width: 900px;
+    width: 80%;
     height: 500px;
     border: 5px solid blue;
     padding: 5px;
     margin: 50px;
+    background-image: url(); /*add image file in parentheses*/
 }
 
-div{
+#projects{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
