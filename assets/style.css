@@ -42,13 +42,19 @@ h3, p{
     flex-wrap: wrap;
 }
 
+div p{
+    justify-content: center;
+}
+
 #calculator{
     width: 90%;
     height: 500px;
     border: 5px solid blue;
     padding: 5px;
     margin: 50px;
-    background-image: url()/*add image file in parentheses*/
+    background-image: url(./pexels-rodnae-productions-7092596.jpg);
+    background-position: center;
+    background-size: contain;
 }
 
 #projects{
