@@ -9,7 +9,7 @@ body {
     height: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:end;
 }
 
 
@@ -30,8 +30,9 @@ main{
 section{
     background-color: gray;
     width: 40%;
+    height: 20%;
     min-width: 400px;
-    border: 5px solid blue;
+    border: 5px solid white;
     padding: 5px;
     margin: 50px;
 }
@@ -40,6 +41,7 @@ section{
 h3, p{
     display: flex;
     flex-wrap: wrap;
+    background: blue;
 }
 
 div p{
@@ -49,12 +51,12 @@ div p{
 #calculator{
     width: 90%;
     height: 500px;
-    border: 5px solid blue;
+    border: 5px solid white;
     padding: 5px;
     margin: 50px;
-    background-image: url(./pexels-rodnae-productions-7092596.jpg);
-    background-position: center;
-    background-size: contain;
+    background-image: url(./pexels-pixabay-53621.jpg);
+    background-position:center;
+    background-size: cover;
 }
 
 #projects{
@@ -62,4 +64,40 @@ div p{
     flex-wrap: wrap;
     justify-content: center;
     
+}
+
+#game{
+    background-image: url(./pexels-pixabay-278887.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#coffeeShop{
+    background-image: url(./pexels-jason-villanueva-851555.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#weather{
+    background-image: url(./pexels-brett-sayles-912364.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#music{
+    background-image: url(./pexels-anthony-\)-157534.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#workout{
+    background-image: url(./pexels-pixabay-221247.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
